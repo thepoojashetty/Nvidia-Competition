@@ -1,0 +1,3 @@
+langchain-nvidia-ai-endpoints
+streamlit 
+langchain 
