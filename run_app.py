@@ -6,9 +6,6 @@ import time
 api_key = os.environ.get("NVIDIA_API_KEY")
 llm = ChatNVIDIA(model="mistralai/mixtral-8x7b-instruct-v0.1", api_key=api_key)
 
-#api=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
-#mixtral-8x7b-instruct-v0.1
-
 def get_completion(prompt):
     result = llm.invoke(prompt)
     return result.content
